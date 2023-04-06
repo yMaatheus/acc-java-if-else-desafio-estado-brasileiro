@@ -2,6 +2,9 @@ package com.trybe.acc.java.estadosbrasileiros;
 
 import java.util.Random;
 
+/**
+ * Class EstadoBrasileiros.
+ */
 public class EstadosBrasileiros {
   /**
    * Método principal para a execuçao do código.
@@ -17,7 +20,13 @@ public class EstadosBrasileiros {
   }
 
   static void mostraNomeEstado(String uf) {
-    // Seu código aqui
+    if (uf == "CE") {
+      imprime("CEARA");
+    } else if (uf == "SC") {
+      imprime("SANTA CATARINA");
+    } else if (uf == "AM") {
+      imprime("AMAZONAS");
+    }
   }
 
   // Chame a função escrevendo `imprime()`.
